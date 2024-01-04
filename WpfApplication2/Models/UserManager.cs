@@ -6,11 +6,11 @@ namespace WpfApplication2.Models
     {
         public static ObservableCollection<User> _DatabaseUsers = new ObservableCollection<User>()
         {
-            new User() { Email = "quam@aol.couk", Name = "Erich Fry" },
-            new User { Email = "in@yahoo.com", Name = "Virginia Salas" },
-            new User { Email = "luctus@google.com", Name = "Alvin Velasquez" },
-            new User { Email = "etiam.bibendum@hotmail.edu", Name = "Zia Hutchinson" },
-            new User { Email = "augue.porttitor@protonmail.org", Name = "Justin Burch" }
+            new User() { UserEmail = "quam@aol.couk", UserName = "Erich Fry" },
+            new User { UserEmail = "in@yahoo.com", UserName = "Virginia Salas" },
+            new User { UserEmail = "luctus@google.com", UserName = "Alvin Velasquez" },
+            new User { UserEmail = "etiam.bibendum@hotmail.edu", UserName = "Zia Hutchinson" },
+            new User { UserEmail = "augue.porttitor@protonmail.org", UserName = "Justin Burch" }
         };
 
         public static ObservableCollection<User> GetUsers()

@@ -3,7 +3,6 @@ using WpfApplication2.ViewModels;
 
 namespace WpfApplication2.Views
 {
-	
     public partial class AddUser : Window
     {
         public AddUser()

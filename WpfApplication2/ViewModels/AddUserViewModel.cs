@@ -22,7 +22,7 @@ namespace WpfApplication2.ViewModels
 
         private void AddUser(object obj)
         {
-            UserManager.AddUser(new User() { Name = Name, Email = Email });
+            UserManager.AddUser(new User() { UserName = Name, UserEmail = Email });
         }
     }
 }
