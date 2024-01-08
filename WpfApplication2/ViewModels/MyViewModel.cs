@@ -32,16 +32,5 @@ namespace WpfApplication2.ViewModels
             addUserWin.WindowStartupLocation = WindowStartupLocation.CenterOwner;
             addUserWin.Show();
         }
-        // private void FilterTextBox_TextChanged(object sender, TextChangedEventArgs e)
-        // {
-        //     UserList.Items.Filter = FilterMethod;
-        // }
-        //
-        // private bool FilterMethod(object obj)
-        // {
-        //     var user = (User)obj;
-        //     return user.UserName.Contains(FilterTextBox.Text);
-        //     // StringComparison.OrdinalIgnoreCase
-        // }
     }
 }
